@@ -9,7 +9,8 @@
 
 > Analisis dan visualisasi data penjualan mobil DasAutomobile selama 1980–2023 untuk memahami **seberapa besar resesi memengaruhi penjualan**, jenis kendaraan mana yang paling terdampak, dan bagaimana alokasi iklan saat resesi.
 
-![Dashboard Dampak Resesi pada Penjualan DasAutomobile](images/dashboard.png)
+<img width="1720" height="1475" alt="dashboard" src="https://github.com/user-attachments/assets/ac058e83-c13c-4ba8-b617-398a26dafc58" />
+
 
 ---
 
@@ -93,20 +94,23 @@ Beberapa angka dihitung dengan definisi yang berbeda, sehingga perlu dibaca deng
 ## 📊 Visualisasi & Temuan di Notebook
 
 ### 1.1 Fluktuasi penjualan dari tahun ke tahun
-![Tren penjualan tahunan](images/01_sales_trend_yearly.png)
+<img width="1384" height="584" alt="01_sales_trend_yearly" src="https://github.com/user-attachments/assets/2151f53a-51fd-44dc-93a9-5aeaa15fdd7b" />
+
 
 - Rata-rata penjualan **tertinggi pada 1995 (4.300,2)** dan **terendah pada 1982 (631,1)**.
 - Terdapat lima periode resesi dalam data (1980–1983, 1990–1992, 2000–2002, 2008–2009, dan 2020). Pada sebagian besar periode tersebut penjualan **jatuh tajam**, lalu **pulih relatif cepat** setelah resesi berakhir.
 - Rata-rata tahunan pada tahun yang memuat bulan resesi adalah **1.238**, dibanding **2.820** pada tahun lainnya. Resesi 2020 menunjukkan penurunan yang lebih ringan dibanding resesi sebelumnya.
 
 ### 1.2 Pengeluaran iklan vs penjualan (non-resesi)
-![Iklan vs penjualan](images/02_advertising_vs_sales.png)
+<img width="1384" height="584" alt="02_advertising_vs_sales" src="https://github.com/user-attachments/assets/87c55925-1458-4c11-8ce9-00496f1a56e0" />
+
 
 - Korelasi antara rata-rata pengeluaran iklan dan penjualan tahunan pada periode non-resesi adalah **−0,124**, yaitu hubungan **lemah** dan secara praktis hampir tidak ada hubungan linear yang berarti.
 - Pada data ini, tahun dengan iklan lebih besar tidak otomatis diikuti penjualan yang lebih tinggi. Ini korelasi pada rata-rata tahunan, bukan bukti sebab-akibat.
 
 ### 1.3 Penjualan per jenis kendaraan: resesi vs non-resesi
-![Penjualan per jenis kendaraan](images/03_sales_by_vehicle_type.png)
+<img width="1184" height="584" alt="03_sales_by_vehicle_type" src="https://github.com/user-attachments/assets/97785857-940c-4e5b-b872-aa57038e1dea" />
+
 
 | Jenis kendaraan | Non-resesi | Resesi | Perubahan | Jumlah bulan resesi (n) |
 |---|---:|---:|---:|---:|
@@ -121,38 +125,44 @@ Beberapa angka dihitung dengan definisi yang berbeda, sehingga perlu dibaca deng
 - ⚠️ **Sports hanya memiliki 3 bulan resesi dan Executivecar hanya 1 bulan.** Penurunan Sports (−94%) tampak paling dalam, tetapi angkanya sangat bergantung pada sedikit observasi, jadi sebaiknya dibaca sebagai indikasi, bukan kesimpulan yang kuat.
 
 ### 1.4 Variasi GDP pada periode resesi dan non-resesi
-![GDP resesi vs non-resesi](images/04_gdp_recession_vs_non.png)
+<img width="1584" height="590" alt="04_gdp_recession_vs_non" src="https://github.com/user-attachments/assets/49f299fc-155a-4af9-8e6b-7456f0a24571" />
+
 
 - Rata-rata GDP saat resesi berada pada kisaran sekitar 22–41, dengan titik terendah pada awal 1980-an.
 - Pada periode non-resesi, GDP lebih tinggi dan lebih fluktuatif (kisaran sekitar 31–63, dengan puncak sekitar tahun 1990 dan 2000).
 
 ### 1.5 Dampak musiman terhadap penjualan
-![Pengaruh musiman](images/05_seasonality_bubble.png)
+<img width="1191" height="584" alt="05_seasonality_bubble" src="https://github.com/user-attachments/assets/e6bb430b-6821-4532-9ad9-3d2770fca36d" />
+
 
 - Rata-rata penjualan tertinggi terjadi pada **Desember (2.514)**, disusul **April (2.477)** dan **Maret (2.425)**. Penjualan terendah terjadi pada **Agustus (2.214)**.
 - Bobot musiman tertinggi ada di Maret dan Mei (1,23), tetapi bobot tinggi tidak selalu sejalan dengan penjualan tinggi (Desember justru berbobot rendah, 0,32).
 - Selisih bulan tertinggi dan terendah sebesar **13,5%**, sehingga **efek musiman tergolong moderat** dibanding efek resesi.
 
 ### 1.6 Harga kendaraan vs volume penjualan saat resesi
-![Harga vs penjualan](images/06_price_vs_sales_scatter.png)
+<img width="1082" height="584" alt="06_price_vs_sales_scatter" src="https://github.com/user-attachments/assets/4bddb06c-db1d-4a79-9b2a-05cf06d48482" />
+
 
 - Korelasi harga dan penjualan selama resesi adalah **−0,147**, yaitu hubungan negatif yang **lemah**. Harga bukan penjelas utama turunnya penjualan pada data ini.
 - Grafik ini juga memperlihatkan bahwa data resesi didominasi tiga segmen (Supperminicar, Mediumfamilycar, Smallfamiliycar), sedangkan Sports hanya muncul 3 kali dan Executivecar 1 kali.
 
 ### 1.7 Porsi pengeluaran iklan: resesi vs non-resesi
-![Porsi iklan](images/07_ad_share_pie.png)
+<img width="640" height="684" alt="07_ad_share_pie" src="https://github.com/user-attachments/assets/0cab19bd-9f76-49ba-a23d-8c104319cd36" />
+
 
 - Total iklan saat resesi sebesar 339.910 (**21,0%**) dan non-resesi sebesar 1.279.707 (**79,0%**).
 - Porsi 21% ini hampir sama dengan porsi bulan resesi dalam data (113 dari 528 bulan, 21,4%). Rata-rata iklan per bulan juga nyaris sama (≈3.008 saat resesi vs ≈3.084 saat non-resesi), sehingga **anggaran iklan tampaknya tidak dipangkas saat resesi**, padahal penjualan anjlok.
 
 ### 1.8 Pengeluaran iklan per jenis kendaraan saat resesi
-![Iklan per jenis kendaraan](images/08_ad_by_vehicle_recession.png)
+<img width="783" height="683" alt="08_ad_by_vehicle_recession" src="https://github.com/user-attachments/assets/90a80449-bf4d-46c8-8e4d-16767b42b1f3" />
+
 
 - Tiga segmen (**Mediumfamilycar 38,4%**, **Smallfamiliycar 30,2%**, **Supperminicar 26,7%**) menyerap sekitar **95%** total iklan saat resesi.
 - Porsi kecil **Sports (3,7%)** dan **Executivecar (1,0%)** mencerminkan jumlah bulannya yang sedikit, bukan anggaran yang sengaja dikecilkan. Rata-rata iklan per bulan resesi relatif sebanding antarjenis (≈2.854 hingga ≈4.189 per bulan).
 
 ### 1.9 Tingkat pengangguran vs penjualan saat resesi
-![Pengangguran vs penjualan](images/09_unemployment_vs_sales.png)
+<img width="1183" height="584" alt="09_unemployment_vs_sales" src="https://github.com/user-attachments/assets/94ba2eae-f761-4eb7-bda0-e12f98b43b2e" />
+
 
 - Garis rata-rata per jenis kendaraan cukup bergelombang dan **tidak menunjukkan pola menurun yang konsisten** terhadap kenaikan tingkat pengangguran.
 - Sports dan Executivecar hanya muncul sebagai garis pendek atau titik tunggal karena datanya sangat sedikit, sehingga tidak cukup untuk disimpulkan.
