@@ -228,7 +228,8 @@ Data diambil otomatis dari URL, jadi dibutuhkan koneksi internet saat menjalanka
 
 **M. Maulana Aryo M.**
 Data Analyst · Python · Pandas · Matplotlib · Seaborn
-[LinkedIn]([https://linkedin.com/in/USERNAME](https://www.linkedin.com/in/mmaulanaaryo9b9174253/)) · [Email](mmaulanaryo@gmail.com)
+
+https://www.linkedin.com/in/mmaulanaaryo9b9174253/ · mmaulanaryo@gmail.com
 
 Jika proyek ini bermanfaat, jangan lupa beri ⭐ pada repositori ini.
 
@@ -236,4 +237,4 @@ Jika proyek ini bermanfaat, jangan lupa beri ⭐ pada repositori ini.
 
 ## 📚 Sumber Data
 
-Dataset `historical_automobile_sales.csv` merupakan dataset proyek akhir kursus **IBM Data Visualization with Python**, disediakan oleh **IBM Developer Skills Network**.
+Dataset `historical_automobile_sales.csv` merupakan dataset proyek akhir Coursera **IBM Data Visualization with Python**, disediakan oleh **IBM Developer Skills Network**.
